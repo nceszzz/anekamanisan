@@ -1,0 +1,164 @@
+*,html,body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nav{
+    background-color: rgb(248, 169, 206);
+    color: rgb(14, 14, 14);
+    display: flex;
+    position: absolute;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.menu {
+    margin-left: 45%;
+}
+.menu > ul > li {
+    display:inline-block;
+    margin-left: 50px ;
+}
+ .menu > ul > li > a {
+    color: black;
+    text-decoration: none;
+}
+.menu > ul > li > a:hover {
+    color:white;
+    background-color: rgb(196, 190, 190);
+    padding: 5px;
+}
+.banner > img {
+    width:100%;
+}
+.banner > img {
+    width: 100%;
+}
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.paket_manisan {
+    margin-bottom: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+}
+.paket_manisan h2 {
+    font-size: 36px;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+.manisan-item {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin: 0.5rem;
+    max-width: 300px;
+    margin-left: 20px;
+    padding: 1rem;
+    border-radius: 5px;
+    flex: 1;
+    text-align: 1;
+    transition: transform 0.3s ease;
+}
+.manisan-item:hover {
+    transform: scale(1.1);
+}
+.manisan-item img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+.manisan-item h3{
+    font-size: 1.5rem;
+    margin: 0.5rem;
+}
+.manisan-item p{
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+.manisan-item button {
+    background-color: rgb(71, 71, 45);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transform: background-color 0.3s ease;
+}
+.manisan-item button:hover{
+    background-color: rgb(41, 147, 234);
+    color: white;
+}
+
+.kontak {
+    background-color: #f0f0f0;
+    padding: 40px 20px;
+    margin-top: 3rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.kontak h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.form-kontak {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-kontak input,
+.form-kontak textarea {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+.form-kontak button {
+    padding: 12px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-kontak button:hover {
+    background-color: #218838;
+}
+.tentang {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fffdf0;
+    margin-top: 3rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.tentang h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.tentang p {
+    font-size: 18px;
+    color: #444;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
